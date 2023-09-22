@@ -1,5 +1,134 @@
 
+/* ================header-hero-box================== */
+
+.container {
+    max-width: 448px;
+}
+
+.header-hero-box{
+    max-width: 480px;
+    max-height: 580px;
+    margin: 0 auto;
+
+    background-image: var(--bg-gradient), url(../img/hero-img-mob-1x.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    text-align: start;
+
+}
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .header-hero-box {
+        background-image: var(--bg-gradient), url(../img/hero-img-mob-2x.jpeg);
+    }
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+
+/* ==================logo====================== */
+.logo {
+    width: 69px;
+    height: 55px;
+}
+
+.menu-btn{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.logo,
+.menu-icon {
+    fill: var(--white-color);
+}
+
+/* =====================section-hero================= */
+
+/* =====================spre-title-box================= */
+.section-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 112px;
+    padding-bottom: 209px;
+}
+.pre-title-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.first-pre-title-box{
+    
+    width: 60px;
+    height: 1px;
+    background-color: rgba(157, 164, 189, 0.60);
+
+}
+.first-pre-title{
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+
+    color: var(--pre-title-color);
+}
+/* =================================================== */
+.hero-title{
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+
+    color: var(--white-color);
+}
+.second-hero-pre-title{
+    max-width: 321px;
+    
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.625; 
+    letter-spacing: 0.32px;
+
+}
+
+@media screen and (max-width: 319px)  {
+    .hero-title{
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-list,
+    .header-contacts {
+        display: none;
+    }
+
+    
+}
+
+
 @media screen and (min-width: 480px) {
     
-    .container
+    
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+
 }
