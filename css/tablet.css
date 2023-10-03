@@ -25,7 +25,16 @@
     .bg-hero-mob{
         background-image: none;
     }
-    
+    /* ----------------------sidebar--------------------- */
+    .sidebar-box{
+        display: flex;
+        flex-direction: column;
+        gap: 282px;
+        padding-top: 32px;
+        padding-bottom: 40px;
+        
+    }
+
     .logo {
         fill: #303030;
     }
@@ -33,8 +42,50 @@
     .menu-btn{
             display: none;
         }
-    
+
+    .sidebar-soc-box{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+    }
+    .sidebar-list{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        
+    }
+    .sidebar-box .rectangle{
+        width: 1px;
+        height: 60px;  
+        background-color: var(--black-color);
+        
+    }
+
+    .sidebar-item{
+        
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-family: inherit;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 2.2px;
+        
+        color: var(--black-color);
+        transform: rotate(-90deg);
+
+    }
+    .nav-list-link {
+        
+    }
+   
     .bg-header-hero-box{
+        
+        min-width: 573px;
+        height: 680px;
+
         background-image: var(--bg-gradient), url(../img/hero-img-tab-1x.jpeg);
         background-repeat: no-repeat;
         background-position: center;
@@ -50,7 +101,7 @@
     .nav-contacts-box{
         display: flex;
         align-items: baseline;
-        gap: 46px;
+        gap: 45px;
         padding-left: 19px;
         padding-top: 40px;
     }
@@ -82,21 +133,29 @@
         gap: 20px;
     }
     .header-contacts-btn{
-        padding: 12px 21px;
+        
+        padding: 12px 20px;
         background-color: transparent;
         border-radius: 25px;
         border: 1px solid var(--accent-color);
+
+        letter-spacing: 1.08px;
     }
+    .header-contacts-link{
+        letter-spacing: 1.2px;
+    }
+
     .header-contacts-btn,
     .header-contacts-link{
         
-        text-align: center;
+        
         font-family: inherit;
         font-size: 12px;
         font-weight: 600;
-        letter-spacing: 1.2px;
+        
         text-transform: uppercase;
         text-decoration: none;
+        text-align: center;
         color: var(--white-color);
     }
 

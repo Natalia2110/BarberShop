@@ -27,7 +27,7 @@
 .container {
 
     max-width: 448px;
-    background-color:darkslateblue
+    
 }
 .header .container {
     
@@ -76,7 +76,7 @@
 
 /* ==================logo====================== */
 .logo {
-    width: 69px;
+    width: 67px;
     height: 55px;
 }
 
@@ -92,6 +92,7 @@
 .menu-icon {
     fill: var(--white-color);
 }
+
 .nav-contacts-box{
     display: none;
 }
@@ -159,10 +160,12 @@
 
 @media screen and (max-width: 767px) {
     .nav-list,
-    .header-contacts {
+    .header-contacts,
+    .sidebar-soc-box {
         display: none;
     }
 
+    
     /* .header .container {
         justify-content: space-between;
     } */

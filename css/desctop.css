@@ -5,10 +5,12 @@
         
     }
     .header .container {
-        gap: 31px;
+        gap: 30px;
         /* align-items: center; */
     }
     .bg-header-hero-box{
+        max-width: 1070px;
+        max-height: 680px;
         background-image: var(--bg-gradient), url(../img/hero-img-desc-1x.jpeg);
         background-repeat: no-repeat;
         background-position: center;
@@ -27,9 +29,10 @@
     .nav-contacts-box{
         display: flex;
         align-items: center;
-        gap: 254px;
+        gap: 245px;
         padding-left: 100px;
         padding-top: 38px;
+        padding-right: 15px;
     }
 
     .nav-list{
@@ -42,7 +45,7 @@
         
         flex-direction: row-reverse;
         align-items: center;
-        gap: 43px;
+        gap: 40px;
     }
 
 /* ---------------------------section-hero--------------------- */
