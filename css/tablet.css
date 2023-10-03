@@ -8,13 +8,112 @@
 
     .container {
         max-width: 720px;
+        
+    }
+    .section-hero{
+    
+        padding-top: 156px;
+        padding-bottom: 237px;
+    } 
+    .header .container {
+        display: flex;
+        gap: 39px;
+        padding-top: 0px;
+        
+        align-items: start;
+    }
+    .bg-hero-mob{
+        background-image: none;
     }
     
-    .menu-btn,{
+    .logo {
+        fill: #303030;
+    }
+    
+    .menu-btn{
             display: none;
         }
-       
-        {
-            
+    
+    .bg-header-hero-box{
+        background-image: var(--bg-gradient), url(../img/hero-img-tab-1x.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .bg-header-hero-box{
+        background-image: var(--bg-gradient), url(../img/hero-img-tab-2x.jpeg);
         }
+    }
+    .nav-contacts-box{
+        display: flex;
+        align-items: baseline;
+        gap: 46px;
+        padding-left: 19px;
+        padding-top: 40px;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    
+    }
+    .nav-list-item{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 12px;
+       
+    }
+    .nav-list-link{
+        font-family: inherit;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        color: var(--white-color);
+        text-decoration: none;
+
+    }
+
+    .header-contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-contacts-btn{
+        padding: 12px 21px;
+        background-color: transparent;
+        border-radius: 25px;
+        border: 1px solid var(--accent-color);
+    }
+    .header-contacts-btn,
+    .header-contacts-link{
+        
+        text-align: center;
+        font-family: inherit;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--white-color);
+    }
+
+
+    /* ---------------------------section-hero--------------------- */
+
+    .section-hero{
+        padding-left: 97px;
+        padding-top: 156px;
+        padding-bottom: 237px;
+    }
+    .second-hero-pre-title{
+        max-width: 360px;
+
+        font-size: 18px;
+        line-height: 1.67;
+        letter-spacing: 0.36px;
+
+    }
 }

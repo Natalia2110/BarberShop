@@ -1,11 +1,9 @@
 
 /* ================header-hero-box================== */
 
-.container {
-    max-width: 448px;
-}
 
-.header-hero-box{
+
+/* .header-hero-box{
     max-width: 480px;
     max-height: 580px;
     margin: 0 auto;
@@ -25,14 +23,54 @@
     .header-hero-box {
         background-image: var(--bg-gradient), url(../img/hero-img-mob-2x.jpeg);
     }
+} */
+.container {
+
+    max-width: 448px;
+    background-color:darkslateblue
+}
+.header .container {
+    
+    
+    padding-top: 40px;
+    
+}
+.bg-hero-mob{
+    /* max-width: 480px;
+    /* max-height: 580px; */
+    /* margin: 0 auto; */
+
+    background-image: var(--bg-gradient), url(../img/hero-img-mob-1x.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .bg-hero-mob{
+        background-image: var(--bg-gradient), url(../img/hero-img-mob-2x.jpeg);
+        }
+    }
+
+    /* text-align: start; */
+
+
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .header-hero-box {
+        background-image: var(--bg-gradient), url(../img/hero-img-mob-2x.jpeg);
+    }
+}
+.mob-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 40px;
-}
 
 
 
@@ -54,16 +92,22 @@
 .menu-icon {
     fill: var(--white-color);
 }
+.nav-contacts-box{
+    display: none;
+}
 
 /* =====================section-hero================= */
 
 /* =====================spre-title-box================= */
 .section-hero{
+    
+    padding-top: 112px;
+    padding-bottom: 209px;
+}
+.section-hero-box {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top: 112px;
-    padding-bottom: 209px;
 }
 .pre-title-box{
     display: flex;
@@ -119,7 +163,9 @@
         display: none;
     }
 
-    
+    /* .header .container {
+        justify-content: space-between;
+    } */
 }
 
 
