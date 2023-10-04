@@ -179,9 +179,27 @@
      /* ===================section-about=================== */
 
     .section-about{
+
+        
         padding-top: 100px;
         padding-bottom: 100px;
     }
+    .section-about .container{
+        display: flex;
+        gap: 30px;
+    }
+
+    .section-about-list{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section-about-item{
+        min-width: 330px;
+        min-height: 235px;
+    }
+
+
     .section-about-text{
         line-height: 1.667;
         letter-spacing: 0.36px;

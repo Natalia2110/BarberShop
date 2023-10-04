@@ -66,8 +66,18 @@
      /* ===================section-about=================== */
 
     .section-about{
+        
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+
+    .section-about-list{
+        
+        flex-direction: row;
+    }
+    .section-about-item{
+        min-width: 270px;
+        min-height: 445px;
     }
 
 }

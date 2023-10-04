@@ -134,32 +134,81 @@
 
                 <ul class="section-about-list list">
                     <li class="section-about-item">
-                        <img src="" alt="" class="section-about-img">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./img/about-1img-tab-1x.jpeg 1x,
+                                    ./img/about-1img-tab-2x.jpeg 2x
+                                "
+                                media="(max-width:1200px)"
+                                />
+                            <source
+                                srcset="
+                                    ./img/about-1img-desc-1x.jpeg 1x,
+                                    ./img/about-1img-desc-2x.jpeg 2x
+                                "
+                                media="(min-width:1199px)"
+                            />
+
+                            <img
+                                src="./img/about-1img-desc-1x.jpeg"
+                                alt="a man with an earring"
+                                width="270"
+                                height="445"
+                                class="section-about-img"
+                            />
+                        </picture>
+                    
                     </li>
                     <li class="section-about-item">
-                        <img src="" alt="" class="section-about-img">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./img/about-2img-tab-1x.jpeg 1x,
+                                    ./img/about-2img-tab-2x.jpeg 2x
+                                "
+                                media="(max-width:1200px)"
+                                />
+                            <source
+                                srcset="
+                                    ./img/about-2img-desc-1x.jpeg 1x,
+                                    ./img/about-2img-desc-2x.jpeg 2x
+                                "
+                                media="(min-width:1199px)"
+                            />
+
+                            <img
+                                src="./img/about-2img-desc-1x.jpeg"
+                                alt="a man with an earring"
+                                width="270"
+                                height="445"
+                                class="section-about-img"
+                            />
+                        </picture>
+
                     </li>
                 </ul>
 
-               <div>
-                    <div class="section-about-box black-title">
-                        <div class="pre-title-box">
-                            <div class="first-pre-title-box"></div>
-                            <p class="first-pre-title">
-                                About
+                <div>
+                        <div class="section-about-box black-title">
+                            <div class="pre-title-box">
+                                <div class="first-pre-title-box"></div>
+                                <p class="first-pre-title">
+                                    About
+                                </p>
+                            </div>
+                            <h2 class="section-about-title title">Best Barbershop in your city</h2>
+                            <p class="section-about-text">
+                                If you want to add more confidence to your image, you should visit us
+                            </p>
+                            <p class="section-about-desc">
+                                We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!
                             </p>
                         </div>
-                        <h2 class="section-about-title title">Best Barbershop in your city</h2>
-                        <p class="section-about-text">
-                            If you want to add more confidence to your image, you should visit us
-                        </p>
-                        <p class="section-about-desc">
-                            We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!
-                        </p>
-                    </div>
-               </div>
-               
-               <button type="button" class="button">Online-booking</button>
+                        <button type="button" class="button">Online-booking</button>
+                </div>
+
+                
 
             </div>
         </section>
