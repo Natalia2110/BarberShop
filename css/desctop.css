@@ -63,4 +63,11 @@
         max-width: 361px;
     }
 
+     /* ===================section-about=================== */
+
+    .section-about{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
 }
