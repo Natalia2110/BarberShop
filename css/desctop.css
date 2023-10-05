@@ -65,7 +65,8 @@
 
      /* ===================section-about=================== */
 
-    .section-about{
+    .section-about,
+    .section-prices{
         
         padding-top: 120px;
         padding-bottom: 120px;
@@ -80,4 +81,48 @@
         min-height: 445px;
     }
 
+    .section-about-box{
+        max-width: 470px;
+    }
+    .section-about-title {
+        font-size: 42px;
+        letter-spacing: 2.1px;
+    }
+
+    /* ===================section-prices=================== */
+
+    .section-prices{
+    max-width: 1600px;
+    max-height: 692px;
+
+    background-image: url(../img/bgImg-prices-desc-1x.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .section-prices{
+            
+            background-image: url(../img/bgImg-prices-desc-2x.png);
+            }
+    .prices-list-box{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .prices-list-box{
+        background-image: none;
+        padding: 0;
+    }
+    
+    .prices-list{
+        width: calc((100% - 30px) / 2);
+        padding: 30px 20px;
+        
+    }
+    .prices-list:first-child{
+        background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.20) 100%);
+    }
+    .prices-list:last-child{
+        background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.20) 100%);
+    }
 }

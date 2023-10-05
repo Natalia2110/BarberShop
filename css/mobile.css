@@ -1,29 +1,30 @@
 
-/* ================header-hero-box================== */
+@media screen and (max-width: 319px)  {
+    .hero-title{
+        font-size: 38px;
+    }
+}
 
 
+@media screen and (max-width: 767px) {
+    .nav-list,
+    .header-contacts,
+    .sidebar-soc-box {
+        display: none;
+    }
 
-/* .header-hero-box{
-    max-width: 480px;
-    max-height: 580px;
-    margin: 0 auto;
 
-    background-image: var(--bg-gradient), url(../img/hero-img-mob-1x.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    .section-about-list {
+        display: none;
+    }
 
-    text-align: start;
+    .section-about-text{
+        font-size: 16px;
+    }
 
 }
 
-@media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .header-hero-box {
-        background-image: var(--bg-gradient), url(../img/hero-img-mob-2x.jpeg);
-    }
-} */
+
 .container {
 
     max-width: 448px;
@@ -36,9 +37,7 @@
     
 }
 .bg-hero-mob{
-    /* max-width: 480px;
-    /* max-height: 580px; */
-    /* margin: 0 auto; */
+    
 
     background-image: var(--bg-gradient), url(../img/hero-img-mob-1x.jpeg);
     background-repeat: no-repeat;
@@ -58,13 +57,13 @@
 
 
 
-@media (min-device-pixel-ratio: 2),
+    /* @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .header-hero-box {
         background-image: var(--bg-gradient), url(../img/hero-img-mob-2x.jpeg);
     }
-}
+} */
 .mob-header{
     display: flex;
     align-items: center;
@@ -99,7 +98,7 @@
 
 /* =====================section-hero================= */
 
-/* =====================spre-title-box================= */
+
 .section-hero{
     
     padding-top: 112px;
@@ -156,15 +155,21 @@
 
         /* ===================section-about=================== */
 
-    .section-about{
+    .section-about,
+    .section-prices{
         padding-top: 84px;
         padding-bottom: 84px;
     }
 
-    .section-about-box{
+    .section-about-box,
+    .prices-title-box{
         display: flex;
         flex-direction: column;
         gap: 20px;
+        
+    }
+
+    .section-about-box{
         margin-bottom: 40px;
     }
 
@@ -224,36 +229,91 @@
         background-color: transparent;
     }
 
+     /* ===================section-prices=================== */
 
+    .section-prices{
+        max-width: 480px;
+        max-height: 738px;
+        margin: 0 auto;
 
+        background-color: #111319;
+        background-image: url(../img/img-prices-mob-1x.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
 
-
-@media screen and (max-width: 319px)  {
-    .hero-title{
-        font-size: 38px;
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .section-prices{
+            
+            background-image: url(../img/bgImg-prices-mob-2x.png);
+            }
     }
-}
+    
+    
+    /* .section-prices .container{
+        display: flex;
+        flex-direction: column;
 
-@media screen and (max-width: 767px) {
-    .nav-list,
-    .header-contacts,
-    .sidebar-soc-box {
-        display: none;
+        gap: 44px;
+    } */
+    .prices-title-box,
+    .prices-list-box{
+        margin-bottom: 44px;
+
+    }
+    .section-prices-title{
+        font-size: 40px;
+        letter-spacing: 2px;
+        color: var(--white-color);
+    }
+    .prices-list,
+    .prices-list-box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .prices-list-box{
+        padding: 30px 40px;
+        background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.20) 100%);
+
     }
 
-    /* ===================section-about=================== */
+    .prices-list-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 4px;
+    }
+    .prices-list-item::before{
+        content: "";
+        /* width: 100px; */
+        height: 1px;
+        background-color: rgba(157, 164, 189, 0.12);
+        flex-grow: 1;
+    }
+    .prices-list-text:first-child{
+        order: -1;
+    }
+    .prices-list-text{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.429;
+        letter-spacing: 0.28px;
 
-    .section-about-list {
-        display: none;
+    }
+    .section-prices .button{
+        display: block;
+        margin: 0 auto;
+        color: var(--white-color);
     }
 
-    .section-about-text{
-        font-size: 16px;
-    }
 
 
 
-}
 
 
 @media screen and (min-width: 480px) {
