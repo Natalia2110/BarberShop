@@ -157,7 +157,8 @@
 
     .section-about,
     .section-prices,
-    .section-traditional{
+    .section-traditional, 
+    .section-barbers{
         padding-top: 84px;
         padding-bottom: 84px;
     }
@@ -255,7 +256,8 @@
     
     .prices-title-box,
     .prices-list-box,
-    .section-traditional-box{
+    .section-traditional-box,
+    .section-barbers .section-about-title{
         margin-bottom: 44px;
 
     }
@@ -308,7 +310,8 @@
 
 /* =====================section-traditional========================== */
 
-.section-traditional-box .section-about-title{
+.section-traditional-box .section-about-title,
+.section-barbers .section-about-title{
     font-size: 42px;   
 }
 
@@ -349,6 +352,40 @@
 .traditional-text{
     font-size: 11px;
     font-weight: 600;
+}
+/* =======================section-barbers======================= */
+.section-barbers{
+    background-color: var(--bc-section-barbers);
+}
+
+.section-barbers .pre-title-box{
+    margin-bottom: 20px;
+}
+.barbers-list{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.team-card-title,
+.team-card-text{
+    
+    font-family: inherit;
+    text-align: center;
+    font-weight: 400;
+    
+}
+.team-card-title{
+    margin-bottom: 8px;
+    
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: var(--black-color);
+}
+.team-card-text{
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    color: var(--accent-color);
 }
 
 

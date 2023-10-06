@@ -67,7 +67,8 @@
 
     .section-about,
     .section-prices,
-    .section-traditional{
+    .section-traditional, 
+    .section-barbers{
         
         padding-top: 120px;
         padding-bottom: 120px;
@@ -150,5 +151,13 @@
     .traditional-list{
         max-width: 370px;
         margin-left: 0;
+    }
+
+    /* =======================section-barbers======================= */
+
+    .barbers-list{
+    
+        flex-direction: row;
+        gap: 30px;
     }
 }
