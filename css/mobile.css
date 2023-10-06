@@ -18,7 +18,7 @@
         display: none;
     }
 
-    .section-about-text{
+    .section-about-box .section-about-text{
         font-size: 16px;
     }
 
@@ -153,16 +153,18 @@
     letter-spacing: 0.32px;
     }
 
-        /* ===================section-about=================== */
+/* ===================section-about=================== */
 
     .section-about,
-    .section-prices{
+    .section-prices,
+    .section-traditional{
         padding-top: 84px;
         padding-bottom: 84px;
     }
 
     .section-about-box,
-    .prices-title-box{
+    .prices-title-box,
+    .section-traditional-box{
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -176,8 +178,7 @@
     .black-title .first-pre-title{
         color: var(--black-color);
     }
-    .black-title .first-pre-title-box{
-
+    .black-title .first-pre-title-box {
         background-color: var(--black-color);
 
     }
@@ -233,7 +234,7 @@
 
     .section-prices{
         max-width: 480px;
-        max-height: 738px;
+        
         margin: 0 auto;
 
         background-color: #111319;
@@ -252,15 +253,9 @@
             }
     }
     
-    
-    /* .section-prices .container{
-        display: flex;
-        flex-direction: column;
-
-        gap: 44px;
-    } */
     .prices-title-box,
-    .prices-list-box{
+    .prices-list-box,
+    .section-traditional-box{
         margin-bottom: 44px;
 
     }
@@ -310,6 +305,52 @@
         margin: 0 auto;
         color: var(--white-color);
     }
+
+/* =====================section-traditional========================== */
+
+.section-traditional-box .section-about-title{
+    font-size: 42px;   
+}
+
+.traditional-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.traditional-list-item{
+    /* display: block; */
+    width: 194px;
+    height: 133px;
+    padding: 20px 36px;
+    background-color: var(--bc-traditional-item-box);
+    text-align: center;
+}
+.traditional-list-item:nth-child(odd){
+    margin-right: 30px;
+}
+.traditional-list-item:nth-child(even){
+    margin-top: 30px;
+}
+
+.traditional-span,
+.traditional-text{
+    
+    font-family: inherit;
+    letter-spacing: 2.1px;
+    
+
+    color: var(--black-color);
+}
+.traditional-span {
+    font-size: 42px;
+    font-weight: 700;
+
+}
+.traditional-text{
+    font-size: 11px;
+    font-weight: 600;
+}
+
 
 
 

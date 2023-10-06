@@ -238,4 +238,26 @@
     .prices-list-item{
         gap: 12px;
     }
+
+        /* =====================sectijn-traditional========================== */
+
+    .section-traditional .section-about-title{
+        max-width: 431px;
+    }
+    
+    .section-traditional .section-about-text{
+        max-width: 500px;
+    }
+
+    .traditional-list{
+        max-width: 450px;
+        margin-left: auto;
+    }
+    .traditional-list-item{
+        
+        width: 210px;
+        
+        padding-left: 44px;
+        padding-right: 44px;
+    }
 }
