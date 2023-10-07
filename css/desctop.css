@@ -160,4 +160,7 @@
         flex-direction: row;
         gap: 30px;
     }
+    .barbers-list-item{
+        width: calc( (100% - 60px) / 3);
+    }
 }

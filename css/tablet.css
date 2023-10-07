@@ -1,5 +1,10 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 
+    .section-barbers .container{
+        max-width: 450px;
+    }
+
+    
 }
 
 
@@ -261,4 +266,11 @@
     }
 
     /* =======================section-barbers======================= */
+    
+
+    .barbers-list-item{
+    max-width: 450px;
+    
+}
+
 }
