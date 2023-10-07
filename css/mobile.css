@@ -158,7 +158,8 @@
     .section-about,
     .section-prices,
     .section-traditional, 
-    .section-barbers{
+    .section-barbers,
+    .section-gallery{
         padding-top: 84px;
         padding-bottom: 84px;
     }
@@ -426,6 +427,20 @@
     fill: var(--accent-color);
 }
 
+/* ==========================section-gallery====================== */
+.section-gallery .pre-title-box{
+    margin-bottom: 71px;
+}
+
+.gallery-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.gallery-list-item {
+    max-width: 418px;
+    max-height: 360px;
+}
 
 
 

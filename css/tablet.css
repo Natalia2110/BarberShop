@@ -4,7 +4,7 @@
         max-width: 450px;
     }
 
-    
+
 }
 
 
@@ -183,7 +183,8 @@
     .section-about,
     .section-prices,
     .section-traditional, 
-    .section-barbers{
+    .section-barbers,
+    .section-gallery{
 
         padding-top: 100px;
         padding-bottom: 100px;
@@ -271,6 +272,26 @@
     .barbers-list-item{
     max-width: 450px;
     
-}
+    }
+    /* ==========================section-galler====================== */
+
+    .section-gallery .pre-title-box{
+        margin-bottom: 44px;
+    }
+
+    .gallery-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .gallery-list-item {
+        max-width: calc((100% - 30px) / 2);
+        
+    }
+    .gallery-list-item:nth-child(2){
+        order: -1;
+    }
+    
 
 }
