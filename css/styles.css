@@ -10,6 +10,8 @@
     --bc-color-section-prices: linear-gradient(rgba(17, 19, 25, 1), rgba(17, 19, 25, 0.7));
     --bc-traditional-item-box: #F7F7F7;
     --bc-section-barbers: #F7F7F7;
+    --bc-online-form: #191C26;
+    --online-form-color: rgba(157, 164, 189, 0.40);
     
 
 }

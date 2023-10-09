@@ -184,7 +184,8 @@
     .section-prices,
     .section-traditional, 
     .section-barbers,
-    .section-gallery{
+    .section-gallery,
+    .section-online-form{
 
         padding-top: 100px;
         padding-bottom: 100px;
@@ -291,6 +292,16 @@
     }
     .gallery-list-item:nth-child(2){
         order: -1;
+    }
+
+    /* =====================section-online-form====================== */
+    .online-form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .online-form-input.online-item{
+        width: 330px;
     }
     
 

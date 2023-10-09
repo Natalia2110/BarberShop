@@ -21,6 +21,10 @@
     .section-about-box .section-about-text{
         font-size: 16px;
     }
+    .online-form .button{
+        display: block;
+        margin: 0 auto;
+    }
 
 }
 
@@ -135,10 +139,14 @@
     color: var(--pre-title-color);
 }
 /* =================================================== */
-.hero-title{
-    font-family: Raleway, sans-serif;
-    font-size: 48px;
+
+.title{
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
+
+}
+.hero-title{
+    font-size: 48px;
     letter-spacing: 2.4px;
 
     color: var(--white-color);
@@ -159,7 +167,8 @@
     .section-prices,
     .section-traditional, 
     .section-barbers,
-    .section-gallery{
+    .section-gallery,
+    .section-online-form{
         padding-top: 84px;
         padding-bottom: 84px;
     }
@@ -184,11 +193,7 @@
         background-color: var(--black-color);
 
     }
-    .title{
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-
-    }
+   
     .section-about-title{
         
         font-size: 28px;
@@ -442,7 +447,94 @@
     max-height: 360px;
 }
 
+/* =====================section-online-form======================= */
 
+.section-online-form{
+    background-color: var(--bc-online-form);
+}
+
+.online-form-title{
+    margin-bottom: 44px;
+    
+    font-size: 42px;
+    letter-spacing: 2.1px;
+    text-align: center;
+    color: var(--white-color);
+}
+.online-item{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid  var(--online-form-color);
+    background-color: transparent;
+    margin-bottom: 44px;
+    padding-bottom: 8px;
+    outline: transparent;
+    color: var(--white-color);
+    transition: border-color 300ms linear;
+
+}
+.online-item::placeholder{
+    
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    transition: color 300ms linear;
+}
+.online-item:focus{
+    border-color: var(--white-color);
+}
+.online-item:focus::placeholder{
+    color: var(--white-color);
+}
+
+.online-form-input{
+    
+    height: 24px;  
+}
+.online-text{
+    min-height: 76px;
+    resize: none;
+}
+
+
+.online-form .button{
+    
+    color: var(--white-color);
+}
+/* .online-form,
+.online-form-label{
+    display: flex;  
+    
+}
+.online-form {
+    flex-direction: column;
+    gap: 44px;
+}
+.online-form-label{
+    flex-direction: row;
+    
+    
+}
+
+.online-form-desc{
+    
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    
+} 
+.online-form-input,
+.online-form-message {
+    flex-grow: 1;
+    border: transparent;
+    background-color: var(--white-color);
+}
+.online-form-message */
 
 
 
@@ -455,4 +547,4 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px){
 
-}
+} */

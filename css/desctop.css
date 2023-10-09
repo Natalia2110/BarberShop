@@ -165,8 +165,10 @@
         width: calc( (100% - 60px) / 3);
     }
 
-    /* ==========================section-galler====================== */
+   /* ================section-online-form====================== */ */
 
-    
+    .online-form-input.online-item{
+        width: 270px;
+}
 
 }
