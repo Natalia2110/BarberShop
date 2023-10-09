@@ -172,7 +172,9 @@
     }
 
     /* ======================section-contacts======================== */
-
+    .online-contacts-box{
+        display: flex;
+    }
     .section-contacts{
         max-width: 785px;
         height: 625px;
@@ -186,6 +188,11 @@
             
             background-image: url(../img/bcImg-contacts-desc-2x.png);
             }
+    }
+
+    .contacts-box{
+        flex-direction: column;
+        gap: 71px;
     }
 
 }

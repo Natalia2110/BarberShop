@@ -324,6 +324,17 @@
             background-image: url(../img/bcImg-contacts-tab-2x.png);
             }
     }
+    .section-contacts-item {
+        width: 330px;
+
+    }
+    .contacts-desc{
+        width: 220px;
+    }
+    .contacts-box{
+        display: flex;
+        gap: 30px;
+    }
     .section-contacts-list{
         margin-bottom: 0;
     }
