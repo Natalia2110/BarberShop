@@ -185,7 +185,8 @@
     .section-traditional, 
     .section-barbers,
     .section-gallery,
-    .section-online-form{
+    .section-online-form,
+    .section-contacts{
 
         padding-top: 100px;
         padding-bottom: 100px;
@@ -276,7 +277,7 @@
     }
     /* ==========================section-galler====================== */
 
-    .section-gallery .pre-title-box{
+    .section-gallery .pre-title{
         margin-bottom: 44px;
     }
 
@@ -295,6 +296,10 @@
     }
 
     /* =====================section-online-form====================== */
+    .online-form-title,
+    .section-contacts-title{
+        text-align: start;
+    }
     .online-form{
         display: flex;
         flex-wrap: wrap;
@@ -304,5 +309,22 @@
         width: 330px;
     }
     
+    /* ======================section-contacts======================== */
 
+    .section-contacts{
+        max-width: 768px;
+    
+        background-image: url(../img/bcImg-contacts-tab-1x.png);
+        }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .section-contacts{
+            
+            background-image: url(../img/bcImg-contacts-tab-2x.png);
+            }
+    }
+    .section-contacts-list{
+        margin-bottom: 0;
+    }
 }
