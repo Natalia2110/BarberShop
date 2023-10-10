@@ -172,22 +172,42 @@
     }
 
     /* ======================section-contacts======================== */
-    .online-contacts-box{
+    .online-contacts-box .container{
         display: flex;
+        justify-content: center;
     }
-    .section-contacts{
-        max-width: 785px;
-        height: 625px;
-    
+    .section-online-form,
+    .section-contacts {
+        width: 50%;
+    }
+    .online-contacts-box{
+        max-width: 1600px;
+        background-size: 50% 625px;
         background-image: url(../img/bcImg-contacts-desc-1x.png);
         }
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        .section-contacts{
+        .online-contacts-box{
             
             background-image: url(../img/bcImg-contacts-desc-2x.png);
             }
+    }
+    .section-online-form{
+        
+        padding-right: 25px;
+    }
+
+    .section-online-form,
+    .section-contacts{
+        padding-top: 130px;
+        padding-bottom: 111px;
+    }
+    .online-form-input.online-item {
+        width: 270px;
+    }
+    .section-contacts{
+        padding-left: 105px;
     }
 
     .contacts-box{

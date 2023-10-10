@@ -311,15 +311,15 @@
     
     /* ======================section-contacts======================== */
 
-    .section-contacts{
+    .online-contacts-box{
         max-width: 768px;
-    
+        background-size: 768px 449px;
         background-image: url(../img/bcImg-contacts-tab-1x.png);
         }
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        .section-contacts{
+        .sonline-contacts-box{
             
             background-image: url(../img/bcImg-contacts-tab-2x.png);
             }

@@ -187,9 +187,6 @@
         
             <h2 class="section-prices-title title">Services and prices</h2>
           </div>
-            
-          </div>
-
           <div class="prices-list-box">
             <ul class="prices-list list">
               <li class="prices-list-item">
@@ -230,6 +227,9 @@
           </div>
 
           <button type="button" class="button">Online-booking</button>
+        </div>
+
+          
         </div>
       </section>
 
@@ -629,78 +629,75 @@
       <!----------------section-online-form------------------>
 
       <div class="online-contacts-box">
-          <section class="section-online-form">
+          <div class="container">
+            <section class="section-online-form">
+      
+              <h2 class="online-form-title title">Online-booking</h2>
+              <form class="online-form">
+                <input 
+                    type="text"
+                    name="online-text"
+                    placeholder="Name*"
+                    class="online-form-input online-item"
+                    required
+                >
+                <input 
+                    type="tel"
+                    name="online-tel"
+                    placeholder="Phone*"
+                    class="online-form-input online-item"
+                    required
+                >
+                <textarea 
+                    name="online-message"
+                    placeholder="Message"
+                    class="online-text online-item"></textarea>
+                <button type="button" class="button">
+                    Send
+                </button>
+            </form>
+            </section>
+      
+            <!----------------section-contacts------------------>
+      
+            <section class="section-contacts">
+              <h2 class="section-contacts-title title">Contacts</h2>
+      
+              <div class="contacts-box">
+                <ul class="section-contacts-list list">
+                    <li class="section-contacts-item">
+                        <a href="" class="section-contacts-link link" target="_blank" rel="noopener noreferrer nofollow">
+                            <svg class="contacts-icon" width="24" height="24">
+                                <use href="./img/symbol-defs.svg#icon-map-pin"></use>
+                            </svg>
+                            <span class="contacts-desc">st. Vasilkovaya, 7A Kiev, 08132</span>
+                        </a>
+                    </li>
+                    <li class="section-contacts-item">
+                        <a href="tel:+380441111111" class="section-contacts-link link">
+                            <svg class="contacts-icon" width="24" height="24">
+                                <use href="./img/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                            <span class="contacts-desc">+38 044 111 11 11</span>
+                        </a>
+                    </li>
+                    <li class="section-contacts-item">
+                        <a href="mailto:barbershop@email.com" class="section-contacts-link link">
+                            <svg class="contacts-icon" width="24" height="24">
+                                <use href="./img/symbol-defs.svg#icon-mail"></use>
+                            </svg>
+                            <span class="contacts-desc">barbershop@email.com</span>
+                        </a>
+                    </li>
+                </ul>
     
-            <div class="container">
-                <h2 class="online-form-title title">Online-booking</h2>
-                <form class="online-form">
-                    <input 
-                        type="text"
-                        name="online-text"
-                        placeholder="Name*"
-                        class="online-form-input online-item"
-                        required
-                    >
-                    <input 
-                        type="tel"
-                        name="online-tel"
-                        placeholder="Phone*"
-                        class="online-form-input online-item"
-                        required
-                    >
-                    <textarea 
-                        name="online-message"
-                        placeholder="Message"
-                        class="online-text online-item"></textarea>
-                    <button type="button" class="button">
-                        Send
-                    </button>
-                </form>
-    
-            </div>
-          </section>
-    
-          <!----------------section-contacts------------------>
-    
-          <section class="section-contacts">
-            <div class="container">
-                <h2 class="section-contacts-title title">Contacts</h2>
-    
-                <div class="contacts-box">
-                    <ul class="section-contacts-list list">
-                        <li class="section-contacts-item">
-                            <a href="" class="section-contacts-link link" target="_blank" rel="noopener noreferrer nofollow">
-                                <svg class="contacts-icon" width="24" height="24">
-                                    <use href="./img/symbol-defs.svg#icon-map-pin"></use>
-                                </svg>
-                                <span class="contacts-desc">st. Vasilkovaya, 7A Kiev, 08132</span>
-                            </a>
-                        </li>
-                        <li class="section-contacts-item">
-                            <a href="tel:+380441111111" class="section-contacts-link link">
-                                <svg class="contacts-icon" width="24" height="24">
-                                    <use href="./img/symbol-defs.svg#icon-phone"></use>
-                                </svg>
-                                <span class="contacts-desc">+38 044 111 11 11</span>
-                            </a>
-                        </li>
-                        <li class="section-contacts-item">
-                            <a href="mailto:barbershop@email.com" class="section-contacts-link link">
-                                <svg class="contacts-icon" width="24" height="24">
-                                    <use href="./img/symbol-defs.svg#icon-mail"></use>
-                                </svg>
-                                <span class="contacts-desc">barbershop@email.com</span>
-                            </a>
-                        </li>
-                    </ul>
-        
-                    <div class="section-contacts-box">
-                        <p class="pre-title pre-title-first">Working hours</p>
-                        <p class="contacts-box-text">Every day from 9:00 to 22:00</p>
-                    </div>
+                <div class="section-contacts-box">
+                    <p class="pre-title pre-title-first">Working hours</p>
+                    <p class="contacts-box-text">Every day from 9:00 to 22:00</p>
                 </div>
-            </div>
-          </section>
+              </div>
+            </section>
+          </div>
       </div>
         
     </main>
