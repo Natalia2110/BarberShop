@@ -86,3 +86,17 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.no-scroll {
+    overflow: hidden;
+}
+/* .backdrop {
+
+    background: rgba(25, 28, 38, 0.20);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+
+} */

@@ -34,13 +34,10 @@
 
 
 .container {
-
     max-width: 448px;
     
 }
 .header .container {
-    
-    
     padding-top: 40px;
     
 }
@@ -87,7 +84,8 @@
     height: 55px;
 }
 
-.menu-btn{
+.menu-btn,
+.menu-btn-close{
     width: 40px;
     height: 40px;
     padding: 0;
@@ -100,9 +98,122 @@
     fill: var(--white-color);
 }
 
+
 .nav-contacts-box{
     display: none;
 }
+/* ===================mob-menu======================== */
+.backdrop {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 28, 38, 0.20);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+    /* transition:  ; */
+}
+.mob-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    min-width: 337px;
+    height: 100vh;
+    background: #FFF;;
+    box-shadow: -1px 0px 3px 0px rgba(0, 0, 0, 0.16), -2px 0px 4px 0px rgba(0, 0, 0, 0.08), -4px 0px 8px 0px rgba(0, 0, 0, 0.04);
+    overflow: auto;
+}
+/*  */
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 48px;
+    padding-right: 31px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+    
+
+}
+.mob-menu-box{
+    margin-bottom: 69px;
+
+}
+.menu-btn-close{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+.menu-icon-close{
+    stroke: var(--black-color);
+}
+.mob-menu-list{
+    margin-bottom: 64px;
+}
+.mob-menu-item:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.mob-menu-link,
+.mob-menu-contacts{
+    
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    color: var(--black-color);
+}
+
+.mob-menu-contacts{
+    display: inline-block;  
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+.mob-menu-btn{
+    display: block;
+}
+/* .mob-menu-btn.button{
+ 
+}    */
+/* .menu-soc-list{
+    display: flex;
+    flex-direction: column;
+} */
+.menu-soc-list{
+    position: relative;
+    padding-left: 100px;
+}
+.menu-soc-list::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 60px;
+    height: 1px;
+    background-color: var(--black-color);
+    
+}
+.menu-soc-item:not(:last-child){
+    margin-bottom: 24px;
+}
+
+.menu-soc-item,
+.menu-soc-link{
+    
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    color: var(--black-color);
+}
+
+
 
 /* =====================section-hero================= */
 
